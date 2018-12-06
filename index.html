@@ -1,0 +1,32 @@
+<!doctype html>
+<html class="no-js" ng-app="sellerApp">
+
+<head>
+  <meta charset="utf-8">
+
+  <title ng-bind="'SellerAPp'">Seller</title>
+  <meta name="description" content="" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+</head>
+<body class="ng-clock">
+  <div class="page-wrapper">
+    <div ui-view></div>
+  </div>
+
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="node_modules/angular/angular.js"></script>
+  <script src="node_modules/angular-ui-router/release/angular-ui-router.min.js"></script>
+
+  <script src="app/app.js"></script>
+  <script src="app/module.js"></script>
+  <script src="app/components/Home/route.js"></script>
+  <script src="app/components/Home/controllers/HomeController.js"></script>
+  <script src="services/HomeService.js"></script>
+</body>
+
+</html>
